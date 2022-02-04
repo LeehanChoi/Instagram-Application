@@ -33,8 +33,20 @@ if you are not selected, then 'AppDelegate', 'SceneDelegate', 'ViewController' w
 
 #### 6. Create New folder below Controllers folder.
 * new group named 'Other' 
-* create new group 'Onboarding' below 'Ohter'.
+* create new group 'Onboarding' below 'Other'.
 * 'Onboarding' is going to basically be either the login screen or the registration screen.
 * create new files below Onboarding folder - 'LoginViewController', 'RegistrationViewController'
 
 * when you tap on a post it actually opens up another screen which is more details about one focused post. so we're gonna do a new file below Other folder - 'PostViewController', this is going to be the screen where if you tap into a post, it actually just shows the information about that post. / 'EditProfileViewController' / 'SettingsViewController' / 'ListViewController' / 'SearchViewController' / 'SearchResultViewController' / 'PostEditorViewController' / 'PublishPostViewController' / 
+
+
+#### 7. Go to main storyboard
+* get rid of this controller actually. (default iphone display)
+* click + button right above the xcode. 
+* create tab bar controller and then delete two controllers that are connected to it.
+* create navigation controller and then delete Table View that is connected to it. 
+* select this navigation controller copy and paste it until you have five of them. 
+* press control key and click and drag from Tab Bar Controller to the navigation Controller one by one. select Relationship Segue is View controller.  
+
+* create View Controller and copy and paste it until you have five of them. 
+* press control key and click and drag from Navigation Controller to the View Controller one by one. select Relationship Segue is root view controller. 
