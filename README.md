@@ -37,3 +37,4 @@ if you are not selected, then 'AppDelegate', 'SceneDelegate', 'ViewController' w
 * 'Onboarding' is going to basically be either the login screen or the registration screen.
 * create new files below Onboarding folder - 'LoginViewController', 'RegistrationViewController'
 
+* when you tap on a post it actually opens up another screen which is more details about one focused post. so we're gonna do a new file below Other folder - 'PostViewController', this is going to be the screen where if you tap into a post, it actually just shows the information about that post. / 'EditProfileViewController' / 'SettingsViewController' / 'ListViewController' / 'SearchViewController' / 'SearchResultViewController' / 'PostEditorViewController' / 'PublishPostViewController' / 
