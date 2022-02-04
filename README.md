@@ -50,3 +50,18 @@ if you are not selected, then 'AppDelegate', 'SceneDelegate', 'ViewController' w
 
 * create View Controller and copy and paste it until you have five of them. 
 * press control key and click and drag from Navigation Controller to the View Controller one by one. select Relationship Segue is root view controller. 
+
+* assign a class for each of these View Controller. select that first one and come over arribute inspector and custom class 'HomeViewController'.
+* next one is ExploreViewController.
+* third one is CameraViewControlelr.
+* fourth one is NotificationViewController.
+* last one is ProfileViewController.
+
+* select first navigation controller's item -> attribute inspector -> Tab bar item -> Bar item -> remove Title -> search Image 'House' 
+* the next one is globe / plus / bell / person.
+* if you want to change icons color then select item of Tab Bar Controller ->  attribute inspector -> Tab bar -> image Tint -> change color
+
+
+**if xcode alerts one issue about 'Unsupported Configuration. Tab Bar Controller is unreachable because it has no entry points,....' then attribute inspector -> simulated Metrics -> View Controller -> check 'Is Initial View Controller' 
+
+**if you want to change simulator is in dark mode <-> light mode, press command + shift + A **
