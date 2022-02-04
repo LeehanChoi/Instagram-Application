@@ -1,19 +1,19 @@
 //
-//  ViewController.swift
+//  ListViewController.swift
 //  Instagram
 //
-//  Created by Leehan on 2022/02/02.
+//  Created by Leehan on 2022/02/04.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
-
+    
 
 }
-
