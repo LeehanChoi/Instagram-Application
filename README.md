@@ -65,3 +65,7 @@ if you are not selected, then 'AppDelegate', 'SceneDelegate', 'ViewController' w
 **if xcode alerts one issue about 'Unsupported Configuration. Tab Bar Controller is unreachable because it has no entry points,....' then attribute inspector -> simulated Metrics -> View Controller -> check 'Is Initial View Controller' 
 
 **if you want to change simulator is in dark mode <-> light mode, press command + shift + A **
+
+
+#### 8. Terminal setting
+
