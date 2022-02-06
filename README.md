@@ -105,7 +105,3 @@ if you are not selected, then 'AppDelegate', 'SceneDelegate', 'ViewController' w
 * cd **project file location**
 * pod install 
 * open **project file name**.xcworkspace
-=======
-#### 8. Terminal setting
-
->>>>>>> cf6f55f02d5a9e4494d990afdc13902c22454295
