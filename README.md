@@ -65,3 +65,43 @@ if you are not selected, then 'AppDelegate', 'SceneDelegate', 'ViewController' w
 **if xcode alerts one issue about 'Unsupported Configuration. Tab Bar Controller is unreachable because it has no entry points,....' then attribute inspector -> simulated Metrics -> View Controller -> check 'Is Initial View Controller' 
 
 **if you want to change simulator is in dark mode <-> light mode, press command + shift + A **
+
+
+#### 8. Terminal settings.
+* command + space -> search 'terminal'
+* open up terminal and then enter below sentences
+
+* cd **project file location** 
+* git init
+* git add .
+* git commit -m "First commit"; // you can rename it 
+* pod init
+
+**when you typed 'pod init' and the result is like 'command not found: pod', and then you must follow this step.
+1. sudo gem install cocoapods
+2. Enter your MAC password
+* then installation is done. (you can check one more time as you enter 'pod --version' at terminal)   
+
+* cd **project file location** 
+* pod init
+* ls 
+** you'll see there is now a pod file in your project folder.
+* git add .
+* git commit -m "Add profile";
+
+** Open your 'Podfile' through your project folder. 
+* type below codes.
+
+-> pod ‘Appirater’
+-> #Firebase
+
+-> pod ‘Firebase/Core’
+-> pod ‘Firebase/Auth’
+-> pod ‘Firebase/Database’
+-> pod ‘Firebase/Analytics’
+-> pod ‘Firebase/Crashlytics’
+
+** Terminal open again
+* cd **project file location**
+* pod install 
+* open **project file name**.xcworkspace
